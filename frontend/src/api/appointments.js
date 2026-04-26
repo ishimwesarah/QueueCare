@@ -18,3 +18,13 @@ export async function getAppointments(token) {
   });
   return res.json();
 }
+export async function serveAppointment(id, token) {
+  const res = await fetch(`http://localhost:5000/api/appointments/${id}/serve`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${token}`
+    }
+  });
+  return res.json();
+}
