@@ -1,7 +1,7 @@
 
 ---
 
-````markdown
+
 # QueueCare Appointment System
 
 A clinic appointment system built with **Node.js/Express**, **MongoDB**, **React**, and **Playwright** for end-to-end UI automation.
